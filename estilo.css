@@ -1,0 +1,53 @@
+body {
+    font-family: Arial,sans-serif;
+    background-color: #c7c5c1;
+    color: #0b2357;
+    text-align: center;
+    padding: 2%;
+}
+h1 {
+    color: #51942a;
+}
+a {
+    color: #4f178f;
+    text-decoration: none;
+    display: inline-block; /* Cambio aquí para que los enlaces estén en línea */
+    margin: 0 10px; /* Agrega algo de espacio entre los enlaces */
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#tarjetas{
+    display: flexbox;
+}
+
+#principal{
+
+    margin-left: 20%;
+    margin-right: 20%;
+    max-width: 60%;
+}
+
+@media screen and (max-width: 700px) {
+    #principal{
+
+        margin-left: 2%;
+        margin-right: 2%;
+        max-width: 96%;
+    }
+  }
+  #producto{
+
+    margin-left: 60%;
+    margin-right: 30%;
+    max-width: 10%;
+    
+  }
+  #descripcción{
+    margin-left: 5%;
+    margin-right: 50%;
+    max-width: 45%;
+    text-align: left;
+
+  }
